@@ -1,28 +1,40 @@
-.col-xs-12  {
-  height: 50px;
-  background: #e40007;
-}
-
-#main {
-  background: #e7e7e7;
-  border: 2px solid #000;
-  height: 100px;
-}
-#sidebar {
-  background: #fff;
-  border: 2px solid #000;
-  height: 100px;
-}
-
-.col-md-1 {
-  background: #000;
-  border: 2px solid #fff;
-  color: #fff;
-  height: 300px;
-}
-
-/* SUB CONTENT */
-#sub-content {
-  height: 25px;
+.container-fluid {
   background: yellow;
+}
+
+#header {
+  border: 2px solid black;
+  background: blue;
+  height: 150px;
+}
+
+#nav {
+  border: 2px solid black;
+  background: green;
+  height: 50px;
+}
+
+#content {
+  border: 2px solid black;
+  background: red;
+  height: 200px;
+}
+
+#aside {
+  border: 2px solid black;
+  background: cyan;
+  height: 200px;
+}
+
+#promo {
+  border: 2px solid black;
+  background: orange;
+  height: 150px;
+}
+
+#footer {
+  border: 2px solid black;
+  background: black;
+  height: 50px;
+  font: white;
 }
