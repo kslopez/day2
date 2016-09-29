@@ -1,4 +1,4 @@
-.container-fluid {
+body {
   background: yellow;
 }
 
@@ -37,4 +37,22 @@
   background: black;
   height: 50px;
   font: white;
+}
+
+@media screen and (max-width:786px) {
+#header, #nav, #content, #aside, #promo, #footer {
+  background: purple;
+}
+body {
+  background: white;
+}
+}
+
+@media screen and (max-width:480px) {
+#header, #nav, #content, #aside, #promo, #footer {
+  background: pink;
+}
+body {
+  background: black;
+}
 }
